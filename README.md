@@ -57,7 +57,7 @@ If accuracy is important and space allows, run full image instead.
 ```bash
 docker run --rm --gpus all --init --ulimit core=0 -p 8070:8070 grobid/grobid:0.8.1
 ```
-
+This is configured in `main.py` file. Edit Line 9-10 as necessary.
 
 ### 3. Create Virtual Env and Install Requirements.txt
 ```bash
